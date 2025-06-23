@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Buon Compleanno!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="intro">
+    <video autoplay muted playsinline id="intro-video">
+      <source src="video.mp4" type="video/mp4">
+      Il tuo browser non supporta il video.
+    </video>
+  </div>
+
+  <div id="main-content" style="display: none;">
+    <canvas id="birthdayCanvas"></canvas>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/three@0.161.0/build/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
