@@ -1,0 +1,19 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: black;
+  font-family: sans-serif;
+}
+
+#intro video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+#birthdayCanvas {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
